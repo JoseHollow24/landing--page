@@ -1,0 +1,115 @@
+<?php
+
+if( isset( $_POST['nombre'] )) {
+	$nombre = trim($_POST['nombre']);
+	$mail = trim($_POST['email']);
+	$fono = trim($_POST['celular']);
+	$mensaje = trim($_POST['mensaje']);
+	
+	$cabeceras = "MIME-Version: 1.0\r\n";
+	$cabeceras .= "FROM: " . $mail . "\r\n";
+	//$cabeceras .= "Content-type: text/html; charset=iso-8859-1\r\n";
+	
+	$cuerpo = "Contenido:\n\n"; 
+	$cuerpo .= "Nombre: " . $nombre . "\n"; 
+	$cuerpo .= "Email: " . $mail . "\n";
+	$cuerpo .= "Fono: " . $fono . "\n";
+	$cuerpo .= "Mensaje: " . $mensaje . "\n";
+	
+	//mando el correo... 
+	mail("contacto@doctormoreno.cl,contacto@cirugiaesteticamedica.cl","Consulta Recibida desde Landing Web",$cuerpo, $cabeceras);
+} else {
+	header( 'Location: ./' ) ;
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Liposucción de Contorno Abdominal</title>
+	<link rel="stylesheet" href="archivos/foundation.css">
+    <link rel="stylesheet" href="archivos/style.css">
+    <script src="archivos/modernizr.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64216916-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Facebook Conversion Code for Clientes potenciales - Retargeting Web -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6025687714467', {'value':'0.00','currency':'CLP'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6025687714467&amp;cd[value]=0.00&amp;cd[currency]=CLP&amp;noscript=1" /></noscript>
+<!-- Facebook Conversion Code for Clientes potenciales - Publico Objetivo -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6025687905667', {'value':'0.00','currency':'CLP'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6025687905667&amp;cd[value]=0.00&amp;cd[currency]=CLP&amp;noscript=1" /></noscript>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <section id="header">
+        <div class="row">
+            <div class="large-3 medium-3 small-12 columns" style="float:right">
+                <h1 class="logo"><img src="archivos/logo.jpg" /></h1>
+            </div>
+            
+            <div class="large-9 medium-9 small-12 columns" style="float:left">
+                <h1 class="blue">Liposucción de Contorno Abdominal</h1>
+            </div>
+        </div><!-- .row -->
+    </section>
+
+        <section id="gracias">
+        <div class="row collapse">
+            <div class="large-12 medium-12 small-12 columns">
+
+            	<h1>¡Gracias!</h1>
+                <p>Te Contactaremos a la Brevedad</p>
+                <p>Ahora te Invitamos a Seguirnos en Facebook</p>
+                <p><div class="fb-like" data-href="https://www.facebook.com/pages/Doctor-Luis-Moreno-Lerou/342204312532101" data-width="100" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></p>
+                <p><img src="archivos/logo.jpg" class="logo-firma" /></p>
+            
+            </div><!-- .columns -->
+        </div><!-- .row -->
+    </section>
+</body></html>

@@ -1,0 +1,510 @@
+body, h1, h2, h3, h4, h5, h6, li, p, input, button {
+    /*font-family: 'Open Sans', sans-serif;*/
+	font-family:Arial, Helvetica, sans-serif;
+}
+body, p {
+    color: #a0a0a0;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.col-md-4.hom {
+    color: white;
+    text-align: right;
+}
+
+.col-md-4.hombro {
+    text-align: right;
+    padding-top: 9vw;
+    padding-bottom: 12vw;
+    color: white;
+}
+.comilla1{
+    vertical-align:unset; margin-left:-20%;
+}
+.comilla2{
+    vertical-align: top; margin-right:-10%;
+}
+.col-md-4.fle3 {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 12vw;
+}
+
+.large-12.medium-12.small-12.columns.primerfooter {
+    text-align: center;
+    padding: 22px;
+}
+
+.large-12.medium-12.small-12.columns.primerfooter2 {
+	
+	text-align: center;
+    padding: 22px;
+}
+
+.col-md-4 {
+    float: left;
+}
+.col-md-1 {
+    float: left;
+}
+.col-md-3 {
+    float: left;
+}
+
+.col-md-12 {
+    float: left;
+}
+.col-md-11 {
+    float: left;
+}
+.col-md-10 {
+    float: left;
+}
+.col-md-9 {
+    float: left;
+}
+.col-md-8{
+    float: left;
+}
+.col-md-7 {
+    float: left;
+}
+.col-md-6 {
+    float: left;
+}
+
+.col-md-5 {
+    float: left;
+}
+.col-md-2 {
+    float: left;
+}
+
+.large-12.medium-12.small-12.columns.primerfooter {
+    background: #261242;
+}
+
+.large-12.medium-12.small-12.columns.primerfooter2 {
+    background: #210d3f;
+}
+
+.green {
+    color: #2CB673;
+}
+.green.bg {
+    background-color: #76c04f;
+}
+.blue {
+    margin-bottom: auto;
+    color: #ffffff;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 100;
+    /* font-family: Times new roman; */
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+.blue.bg {
+    background-color: #117cbf;
+}
+
+body section {
+    margin-bottom: 20px;
+}
+section#header h1 {
+    font-size:28px;
+    line-height: 38px;
+    font-family:"Arial Black", Gadget, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 16px;
+	font-weight:900;
+}
+section#header h2 {
+    color: #a0a0a0;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0;
+}
+.large-8.medium-8.small-12.columns.medios {
+    width: 365px;
+    margin: auto;
+    float: none;
+    padding-top: 35px;
+}
+.large-10.medium-9.small-12.columns.texp {
+    padding-right: 0px;
+}
+.large-10.medium-9.small-12.columns.texp p {
+    line-height: 16px;
+    /* padding-top: 5px; */
+    font-size: 15px!important;
+    font-weight: normal!important;
+    text-align: justify;
+}
+.large-12.medium-12.small-12.columns.left.equipoo {
+    margin-top: 15px;
+}
+
+div#foto {
+    padding: 0px;
+}
+section#mensaje {
+     min-height: 550px;
+    margin-bottom: 0px;
+    BACKGROUND: url(fon.png) #2f1850;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    max-height: 447px;
+}
+#puntos ul {
+    list-style: none;
+    margin: 0;
+}
+#puntos ul li {
+    background: url(vb.png) no-repeat 0 0px;
+    padding-left: 50px;
+    line-height: 1em;
+    color: #00ADAB;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    min-height: 12px;
+}
+
+section#mensaje2 {
+       min-height: 200px;
+    background: #9B9C9E;
+    margin-bottom: 0px;
+}
+
+.promo {
+  position: relative;
+    z-index: 1;
+    margin-bottom: 230px;
+    width: 309px;
+    margin: auto;
+}
+.promo img {
+	margin-top: -20%;
+}
+.mujer {
+	position:absolute;
+	top:-65px;
+	right:0px;
+	z-index:-1;
+}
+#contacto {
+    padding: 20px;
+}
+#contacto .small {
+    color: white;
+    line-height: 12px;
+    font-size: 12px !important;
+}
+#contacto h3 {
+   font-size: 61px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffac00;
+    /* font-family: "Arial Black", Gadget, sans-serif; */
+    padding: 0px 10px;
+    font-weight: 900;
+    font-family: 'Cormorant Garamond', serif;
+}
+#contacto h2 {
+   font-size: 61px;
+    text-align: center;
+    color: #ffac00;
+    /* font-family: "Arial Black", Gadget, sans-serif; */
+    font-weight: 900;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 35px;
+}
+#contacto form input, #contacto form select {
+    border: 0;
+    box-shadow: none;
+    height: 45px;
+    font-size: 14px;
+}
+#contacto .control {
+    margin: 20px 0;
+}
+#contacto .control.submit {
+    text-align: center;
+}
+#contacto form label {
+    display: none;
+}
+#contacto form input {
+   color: white;
+    font-weight: 600;
+    background: #3f2a5e;
+    border-radius: 0px;
+}
+#contacto form select {
+    color: #666;
+}
+#contacto form input[type="submit"] {
+    background-color: #261242;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-appearance: none;
+}
+
+#contacto form input[type="submit"]:hover {
+    /*background-color: #67a345;
+    box-shadow: 0 0 3px rgba(255,255,255,.1),
+    inset -1px -1px 1px rgba(255,255,255,.15),
+    inset 1px 1px 1px rgba(0,0,0,.15);*/
+    background-color: rgba(134, 109, 168, 0.68);
+}
+#contacto form input[type="submit"]:active {
+    /*background-color: #578c3b;
+    box-shadow: 0 0 3px rgba(255,255,255,.1),
+    inset -3px -3px 2px rgba(255,255,255,.15),
+    inset 3px 3px 2px rgba(0,0,0,.15);*/
+}
+#doctor ul {
+    margin-bottom:0px;
+}
+#doctor ul li {
+    font-size: 14px;
+	font-weight:bold;
+}
+#doctor p {
+    font-size: 14px;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+#doctor h4 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:900;
+}
+#doctor .left img {
+}
+#footer{
+      width: 100%;
+    background-color: #000000;
+    color: white;  
+}
+input.ra {
+    height: 23px!important;
+    margin-right: 10px;
+}
+p.pcli {
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+}
+input.ra {
+    float: left;
+    height: 6px;
+}
+#footer .social {
+	width:100%;
+    background-color: #00A79D;
+	color: white;
+	padding: 8px 20px;
+}
+#footer .social a {
+	color:white;
+}
+section#footer h1.logo {
+    margin-bottom: 0;
+    text-align: right;
+    overflow: hidden;
+}
+section#header h1.logo {
+    /*margin-bottom: 0;*/
+    text-align: right;
+    overflow: hidden;
+    height: 104px;
+	margin-bottom:10px;
+}
+#contacto form .control {
+    position: relative;
+    height: 45px;
+    margin-bottom: 0px;
+}
+#contacto form .control:hover label.error {
+    height: 0;
+}
+#contacto form label.error {
+    position: absolute;
+    bottom: -8px;
+    background-color: rgba(240, 65, 36, 0.56);
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,.3);
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    font-size: 10px;
+    line-height: 15px;
+    font-style: italic;
+    padding-left: 9px;
+    height: 15px;
+    transition: height .2s ease-in-out;
+    -webkit-transition: height .2s ease-in-out;
+    -moz-transition: height .2s ease-in-out;
+    -o-transition: height .2s ease-in-out;
+    overflow: hidden;
+}
+#contacto form input[type="submit"]:disabled {
+    background-color: #ADC2CF;
+}
+#gracias, #gracias-mensaje {
+    text-align: center;
+}
+#gracias h1, #gracias h4, #gracias-mensaje h1, #gracias-mensaje h2 {
+        color: #FFFFFF !important;
+    margin-top: 97px;
+}
+#gracias h1, #gracias-mensaje h1 {
+        font-size: 48px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white!important;
+    margin-top: 112px;    color: white;
+}
+#gracias p, #gracias-mensaje p {
+	font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: lighter;
+}
+#gracias .logo-firma {
+	margin-top: 30px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    #header {
+        max-height: inherit;
+    }
+    .col-md-4.col-6.mr-4.hom.codo-ph {
+    font-size: 12px;
+    }
+    .promo img{
+        margin-top:5%;
+    }
+    .d-flex.justify-content-center.mt-3 {
+    font-size: 12px;
+}
+    .blue{
+     font-size: 16PX;
+    }
+    .comilla2{
+        display:none;
+    }
+    .comilla1{
+        display:none;
+    }
+    .caja-query{
+        display:none;
+    }
+    .first-ph{
+    margin-top: inherit !important;
+    margin-bottom: inherit !important;
+    line-height: 15px
+    }
+    .codo-ph{
+    line-height: 15px;
+    }
+    .large-12.medium-12.small-12.columns.primerfooter2 {
+    
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+    }
+    #header h1 ,#header h2 {
+        text-align: center;
+    }
+	section#header h1 {
+		margin-top:0px;
+		margin-bottom: 16px;
+	}
+	section#header h1.logo {
+    	text-align: center;
+	}
+    section#mensaje.a, section#mensaje.b {
+        background-position: 50% 0;
+        background-size: 100%;
+    }
+    #puntos ul {
+        /*background-color: white;
+        box-shadow: 0 -3px 3px rgba(0,0,0,.2);
+        margin-top: 350px;*/
+        padding: 20px;
+		position:relative;
+		margin-top: -150px;
+    }
+    #puntos ul li {
+        font-size: 14px;
+        line-height: 1em;
+        background-position: 0;
+        margin-bottom: 12px;
+    }
+	.mujer {
+		position:relative;
+		top:-20px;
+	}
+	.promo {
+		top:0px;
+		text-align:center;
+	}
+	
+	.large-10.medium-9.small-12.columns.texp p {
+    line-height: 16px;
+    /* padding-top: 5px; */
+    font-size: 15px!important;
+    font-weight: normal!important;
+    text-align: justify;
+    width: 97%;
+    margin-top: 12px;
+}
+	
+	.large-8.medium-8.small-12.columns.medios {
+    width: 322px;
+    margin: auto;
+    float: none;
+    padding-top: 35px;
+}
+	#doctor .left img {
+		margin-top: 0px;
+	}
+	#foto, #doctor h4 {
+		text-align:center;
+	}
+	
+	#face {
+		padding: 0px;
+	}
+}
+.font-2{
+    color: #ffac00;
+}
+.cursor-img{
+    cursor: pointer;
+}
+.linea{
+    margin-left: 25px;
+    height: 120px;
+    border-left: solid white 1px;
+}
+.col-md-4.col-4.st.ml-4.logo-git {
+    max-width: 6% ;
+}
